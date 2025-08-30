@@ -27,14 +27,9 @@ export default function Home() {
       {/* Header */}
       <header className="section-max w-full flex items-center justify-between py-5 z-20 relative">
         <div className="flex items-center gap-3">
-          <Image
-            src="/image/text-logo.png"
-            alt="DevPulse Geneva"
-            width={200}
-            height={60}
-            className="h-9 w-auto"
-            priority
-          />
+          <span className="text-2xl font-bold hero-gradient-text">
+            DevPulse Geneva
+          </span>
         </div>
         <nav className="hidden md:flex items-center gap-8">
           <a href="#hero" className="nav-link">
@@ -99,9 +94,9 @@ export default function Home() {
                       rencontre l&apos;esprit Swiss Tech autour d&apos;un café.
                     </p>
                     <div className="flex flex-wrap justify-center gap-2 text-xs">
-                      <span className="bg-teal-500/20 text-teal-200 px-2 py-1 rounded-full">EPFL Innovation</span>
-                      <span className="bg-teal-500/20 text-teal-200 px-2 py-1 rounded-full">CERN IdeaSquare</span>
-                      <span className="bg-teal-500/20 text-teal-200 px-2 py-1 rounded-full">Spaces Geneva</span>
+                      <span className="bg-teal-500/20 text-teal-200 px-2 py-1 rounded-full">AI</span>
+                      <span className="bg-teal-500/20 text-teal-200 px-2 py-1 rounded-full">Veille technique</span>
+                      <span className="bg-teal-500/20 text-teal-200 px-2 py-1 rounded-full">Partage</span>
                     </div>
                   </div>
                 </div>
@@ -130,8 +125,8 @@ export default function Home() {
                     <div className="space-y-2 text-xs text-center">
                       <div className="text-lime-200">• FinTech Geneva Hackathon</div>
                       <div className="text-lime-200">• Green IT Workshop</div>
-                      <div className="text-lime-200">• CERN Tech Talks</div>
-                      <div className="text-lime-200">• Swiss AI Ethics Conf</div>
+                      <div className="text-lime-200">• Entreprise Tech Talks</div>
+                      <div className="text-lime-200">• Astuce de solopreneur</div>
                     </div>
                   </div>
                 </div>
@@ -166,7 +161,7 @@ export default function Home() {
                     </p>
                     <div className="space-y-2 text-xs text-center">
                       <div className="text-orange-200">• Solo Founder Therapy</div>
-                      <div className="text-orange-200">• Code Review collectif</div>
+                      <div className="text-orange-200">• Experience de solopreneur</div>
                       <div className="text-orange-200">• Green IT & durabilité</div>
                       <div className="text-orange-200">• 0% vente, 100% partage</div>
                     </div>
