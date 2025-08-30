@@ -1,0 +1,12 @@
+.prismatic-burst-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+/* S'assurer que le conteneur prend bien toute la taille */
+.prismatic-burst-container * {
+  box-sizing: border-box;
+}
